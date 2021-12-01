@@ -47,8 +47,7 @@ async function run(){
                 description: "This site is created by ReactJS. It is a business or shopping site. It's a full-stack website. Users will see into this site bike and if they want to buy any bike firstly they will be looked in and then pressed order now button for order any bike",
             }
 
-            const result = await projectsCollection.insertOne(project)
-            console.log(result)
+            const result = await projectsCollection.insertOne(project);
         })
     }
     finally {
